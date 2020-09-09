@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Sep 03, 2020 at 03:03 PM
+-- Generation Time: Sep 09, 2020 at 01:48 PM
 -- Server version: 10.3.24-MariaDB
 -- PHP Version: 7.3.6
 
@@ -404,7 +404,8 @@ INSERT INTO `city` (`id`, `prov`, `name`, `orderid`) VALUES
 (374, 297, 'Ù†Ø§Ø¯ Ø¹Ù„ÛŒ', 8),
 (375, 297, 'Ù†Ø§ÙˆÙ‡', 9),
 (376, 297, 'Ù†ÙˆØ²Ø§Ø¯', 10),
-(377, 297, 'ÙˆØ§Ø´ÛŒØ±', 11);
+(377, 297, 'ÙˆØ§Ø´ÛŒØ±', 11),
+(378, 237, 'Ú©Ø§Ø¨Ù„', 5);
 
 --
 -- Indexes for dumped tables
@@ -425,7 +426,7 @@ ALTER TABLE `city`
 -- AUTO_INCREMENT for table `city`
 --
 ALTER TABLE `city`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=378;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=379;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
